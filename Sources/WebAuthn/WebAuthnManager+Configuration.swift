@@ -14,6 +14,7 @@
 
 import Foundation
 
+@available(macOS 13.0, *)
 extension WebAuthnManager {
     /// Configuration represents the WebAuthn configuration.
     public struct Configuration: Sendable {

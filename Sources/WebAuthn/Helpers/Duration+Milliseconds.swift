@@ -12,6 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+@available(macOS 13.0, *)
 extension Duration {
     /// The value of a positive duration in milliseconds, suitable to be encoded in WebAuthn types.
     var milliseconds: Int64 {

@@ -19,6 +19,7 @@ import Foundation
 /// When encoding using `Encodable`, the byte arrays are encoded as base64url.
 ///
 /// - SeeAlso: https://www.w3.org/TR/webauthn-2/#dictionary-assertion-options
+@available(macOS 13.0, *)
 public struct PublicKeyCredentialRequestOptions: Encodable, Sendable {
     /// A challenge that the authenticator signs, along with other data, when producing an authentication assertion
     ///

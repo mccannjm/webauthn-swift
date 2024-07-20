@@ -27,6 +27,7 @@ import Foundation
 /// ``PublicKeyCredentialRequestOptions`` to the client.
 /// When the client has received the response from the authenticator, pass the response to
 /// `finishAuthentication()`.
+@available(macOS 13.0, *)
 public struct WebAuthnManager: Sendable {
     private let configuration: Configuration
 
